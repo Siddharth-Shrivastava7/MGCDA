@@ -7,7 +7,7 @@ relative_weight_synthetic="1"
 training_epochs="10"
 
 # Test dataset.
-imdb_test="Dark_Zurich_test_anon"
+imdb_test="Dark_Zurich_val_anon"
 
 # Testing script.
 ./test_mixed.sh ${synthetic_configurations} ${real_configurations} ${initialization_configurations} ${relative_weight_synthetic} ${training_epochs} ${imdb_test}
